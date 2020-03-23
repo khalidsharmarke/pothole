@@ -1,0 +1,55 @@
+#mainContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    color: brown;
+}
+
+.navbar {
+    width: 100%;
+    height: 7%;
+    display: flex;
+}
+
+.navbar p {
+    color: white;
+    background-color: brown;
+    border-width: 2px;
+    border-color: goldenrod;
+    display: flex;
+
+}
+
+.navbar a {
+    color: white;
+    border-width: 2px;
+    border-color: goldenrod;
+}
+
+.theyWannaMakeThisHard {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mainPage {
+    width: 66%;
+    padding: 2px;
+}
+.mainPage h1 {
+	text-align: center;
+}
+
+.favsContainer{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.favsContainer h2 {
+	text-align: center;
+}
